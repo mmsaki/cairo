@@ -1,7 +1,9 @@
 // Perform and log output of simple arithmetic operations
+
 func simple_math() {
    // adding 13 +  14
-    %{ print(13+14)%}
+   let ans = 13+14;
+    %{ print(ids.ans)%}
    // multiplying 3 * 6
      %{ print(3*6)%}
    // dividing 6 by 2
